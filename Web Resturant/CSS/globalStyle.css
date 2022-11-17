@@ -1,0 +1,43 @@
+
+:root{
+    --brown-1:#A97155;
+    --brown-2:#C0A080;
+    --lightBrown-1:#f4dfd0;
+    --lightBrown-2:#FFF8EA;
+    --black-1:#625757;
+    --black-2:#796465;
+    --black-3:#9D8F8F;
+    --white-1:#F2F3EE;
+}
+
+
+body{
+    background-color: var(--lightBrown-2);
+}
+
+.content{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1,h2,h3,h4,span{
+    font-family: Poppins;
+}
+
+p{
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
